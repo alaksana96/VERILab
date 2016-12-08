@@ -1,0 +1,20 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ** Error: (vish-42) Unsupported ModelSim library format for "//icnas2.cc.ic.ac.uk/apl115/VERI/part_2/ex6/simulation/modelsim/rtl_work". (Format: 4)
+# do ex6_top_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# ** Error: (vdel-42) Unsupported ModelSim library format for "//icnas2.cc.ic.ac.uk/apl115/VERI/part_2/ex6/simulation/modelsim/rtl_work". (Format: 4)
+# 
+# ** Warning: (vdel-57) Library '//icnas2.cc.ic.ac.uk/apl115/VERI/part_2/ex6/simulation/modelsim/rtl_work' is missing or is not a valid ModelSim library.
+# 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+# Error in macro ./ex6_top_run_msim_rtl_verilog.do line 4
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vdel failed.
+#     while executing
+# "vdel -lib rtl_work -all"
+#     invoked from within
+# "if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }"
+# ** Error: (vish-42) Unsupported ModelSim library format for "//icnas2.cc.ic.ac.uk/apl115/VERI/part_2/ex6/simulation/modelsim/rtl_work". (Format: 4)

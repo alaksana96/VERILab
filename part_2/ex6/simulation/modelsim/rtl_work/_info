@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/VERI/part_2/ex6/simulation/modelsim
+vadd3_ge5
+Z1 !s110 1480034079
+!i10b 1
+!s100 @HzLjacIY9GM4SMFNI6GY2
+ICYG>DBO`CGIB46O?:I6P`3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1479210588
+Z4 8H:/VERI/mylib/bin2bcd_16.v
+Z5 FH:/VERI/mylib/bin2bcd_16.v
+L0 95
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1480034078.000000
+Z8 !s107 H:/VERI/mylib/bin2bcd_16.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/VERI/mylib|H:/VERI/mylib/bin2bcd_16.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+H:/VERI/mylib
+Z12 tCvgOpt 0
+vbin2bcd_16
+R1
+!i10b 1
+!s100 ElgUL=o8MGBH:RgKGQXmc3
+I`I=L@Mb[5EMKcDNf_:PWz0
+R2
+R0
+R3
+R4
+R5
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vclkdiv50
+!s110 1480034085
+!i10b 1
+!s100 b^:]M[ZYKGOjkW<bEjRV^3
+II7FNcC4F4l?Lm?hTYU8JY0
+R2
+R0
+w1480032114
+8H:/VERI/part_2/ex6/clkdiv50.v
+FH:/VERI/part_2/ex6/clkdiv50.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1480034084.000000
+!s107 H:/VERI/part_2/ex6/clkdiv50.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/VERI/part_2/ex6|H:/VERI/part_2/ex6/clkdiv50.v|
+!i113 1
+R10
+Z13 !s92 -vlog01compat -work work +incdir+H:/VERI/part_2/ex6
+R12
+vcounter_16
+!s110 1480034081
+!i10b 1
+!s100 F<=HG1[k75D48[MD@>zS03
+IM;WLc2P@=4^UDKZk_=M280
+R2
+R0
+w1479809186
+8H:/VERI/part_2/ex6/counter_16.v
+FH:/VERI/part_2/ex6/counter_16.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1480034080.000000
+!s107 H:/VERI/part_2/ex6/counter_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/VERI/part_2/ex6|H:/VERI/part_2/ex6/counter_16.v|
+!i113 1
+R10
+R13
+R12
+vex6_top
+!s110 1480034083
+!i10b 1
+!s100 cR=5QE9BI90VYHVllUk052
+IPb9RT0KDnmMOahMJ:mch70
+R2
+R0
+w1479815558
+8H:/VERI/part_2/ex6/ex6_top.v
+FH:/VERI/part_2/ex6/ex6_top.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1480034082.000000
+!s107 H:/VERI/part_2/ex6/ex6_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/VERI/part_2/ex6|H:/VERI/part_2/ex6/ex6_top.v|
+!i113 1
+R10
+R13
+R12
+vhex_to_7seg
+!s110 1480034036
+!i10b 1
+!s100 PbkV<lL2cgm`C3Fjf[cYJ1
+IW<7CzJRD]_o79:LTGe9SA3
+R2
+R0
+w1479204825
+8H:/VERI/mylib/hex_to_7seg.v
+FH:/VERI/mylib/hex_to_7seg.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1480034035.000000
+!s107 H:/VERI/mylib/hex_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+H:/VERI/mylib|H:/VERI/mylib/hex_to_7seg.v|
+!i113 1
+R10
+R11
+R12

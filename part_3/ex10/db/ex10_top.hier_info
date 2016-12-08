@@ -1,0 +1,99 @@
+|ex10_top
+CLOCK_50 => CLOCK_50.IN2
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => SW[8].IN1
+SW[9] => SW[9].IN1
+DAC_CS <= spi2dac:spi1.port4
+DAC_SDI <= spi2dac:spi1.port3
+DAC_LD <= spi2dac:spi1.port6
+DAC_SCK <= spi2dac:spi1.port5
+
+
+|ex10_top|clkdiv50:d50
+clkin => count[0].CLK
+clkin => count[1].CLK
+clkin => count[2].CLK
+clkin => count[3].CLK
+clkin => count[4].CLK
+clkin => count[5].CLK
+clkin => count[6].CLK
+clkin => count[7].CLK
+clkin => count[8].CLK
+clkin => count[9].CLK
+clkin => count[10].CLK
+clkin => count[11].CLK
+clkin => count[12].CLK
+clkin => count[13].CLK
+clkin => count[14].CLK
+clkin => count[15].CLK
+clkin => tick~reg0.CLK
+enable => count[0].ENA
+enable => count[1].ENA
+enable => count[2].ENA
+enable => count[3].ENA
+enable => count[4].ENA
+enable => count[5].ENA
+enable => count[6].ENA
+enable => count[7].ENA
+enable => count[8].ENA
+enable => count[9].ENA
+enable => count[10].ENA
+enable => count[11].ENA
+enable => count[12].ENA
+enable => count[13].ENA
+enable => count[14].ENA
+enable => count[15].ENA
+enable => tick~reg0.ENA
+N[0] => count.DATAB
+N[1] => count.DATAB
+N[2] => count.DATAB
+N[3] => count.DATAB
+N[4] => count.DATAB
+N[5] => count.DATAB
+N[6] => count.DATAB
+N[7] => count.DATAB
+N[8] => count.DATAB
+N[9] => count.DATAB
+N[10] => count.DATAB
+N[11] => count.DATAB
+N[12] => count.DATAB
+N[13] => count.DATAB
+N[14] => count.DATAB
+N[15] => count.DATAB
+tick <= tick~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ex10_top|spi2dac:spi1
+sysclk => clk_1MHz.CLK
+sysclk => ctr[0].CLK
+sysclk => ctr[1].CLK
+sysclk => ctr[2].CLK
+sysclk => ctr[3].CLK
+sysclk => ctr[4].CLK
+sysclk => sr_state~4.DATAIN
+data_in[0] => shift_reg.DATAB
+data_in[1] => shift_reg.DATAB
+data_in[2] => shift_reg.DATAB
+data_in[3] => shift_reg.DATAB
+data_in[4] => shift_reg.DATAB
+data_in[5] => shift_reg.DATAB
+data_in[6] => shift_reg.DATAB
+data_in[7] => shift_reg.DATAB
+data_in[8] => shift_reg.DATAB
+data_in[9] => shift_reg.DATAB
+load => sr_state.OUTPUTSELECT
+load => sr_state.OUTPUTSELECT
+load => sr_state.OUTPUTSELECT
+dac_sdi <= shift_reg[15].DB_MAX_OUTPUT_PORT_TYPE
+dac_cs <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+dac_sck <= dac_sck.DB_MAX_OUTPUT_PORT_TYPE
+dac_ld <= Equal2.DB_MAX_OUTPUT_PORT_TYPE
+
+

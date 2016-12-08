@@ -1,0 +1,30 @@
+`timescale 1ns / 100ps
+
+module counter_16 (
+	clock,
+	reset,
+	tick
+);
+
+	parameter BIT_SZ = 16;
+	input clock;
+	output tick;
+	
+	reg [BIT_SZ-1:0] count;
+	
+	initial count = 0;
+	initial tick = 0;
+	
+	always @ (posedge clock)
+		if(reset == 1'b1)
+			count <= 0;
+		if(count < 5'd 50000)
+			count <= count + 1'b1;
+		else
+			count <= 0;
+			tick <= ~tick
+
+
+			
+endmodule
+
